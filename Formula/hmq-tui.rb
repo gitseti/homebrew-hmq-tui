@@ -12,7 +12,7 @@ class HmqTui < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/hmq --version")
+    assert_match "hmq-tui " + version.to_s, shell_output("#{bin}/hmq --version")
   end
 
 end
