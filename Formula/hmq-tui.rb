@@ -1,8 +1,8 @@
 class HmqTui < Formula
   desc "Unofficial TUI for interacting with the HiveMQ REST API"
   homepage "https://github.com/gitseti/hmq-tui"
-  url "https://github.com/gitseti/hmq-tui/archive/refs/tags/0.0.1.tar.gz"
-  sha256 "5788b6d5335055e8ae5b6719ce0b573106311eb8165941a22b07142e9da9c8c6"
+  url "https://github.com/gitseti/hmq-tui/archive/refs/tags/0.1.0.tar.gz"
+  sha256 "122020b47e4a7ad9b2fa142705c64bd569ae0aaa3e50b05924c655ba2f34946c"
   license "MIT License"
 
   depends_on "rust" => :build
