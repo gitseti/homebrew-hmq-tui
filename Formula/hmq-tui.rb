@@ -6,8 +6,8 @@ class HmqTui < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/gitseti/homebrew-tap/releases/download/hmq-tui-0.1.0"
-    sha256 cellar: :any_skip_relocation, ventura: "22913fc91b77d3f7c12fd9f5356827e17d1f832cf316a0efb11f99b13c69a170"
+    root_url "https://github.com/gitseti/homebrew-tap/releases/download/hmq-tui-0.2.0"
+    sha256 cellar: :any_skip_relocation, ventura: "e54c74bbffe00b69212d4281f65580410379cd5d7e44e645845774a66d2a55c3"
   end
 
   depends_on "rust" => :build
